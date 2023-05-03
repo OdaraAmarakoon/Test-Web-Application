@@ -21,12 +21,11 @@ header .top .container {
 
 header .top .container a{
    color: #FFFFFF;
-   font-size: 12px;
+   font-size: 1px;
    font-weight: 500;
 }
 
 header .top .container .tel a {
-
     text-decoration: none;
 }
 
@@ -47,17 +46,15 @@ header .top .container .social :not(:last-child) {
 header .bottom .container {
     display: flex;
     justify-content: space-between;
-    padding: 13px;
+    /* padding: 13px; we are not using padding in here*/
 }
 
 header .bottom .container .navigation {
     display: flex;
-    align-items: center;
-  
+    align-items: center; 
 }
 header .bottom .container .navigation .nav-bar {
-     margin-left: 10px;
-  
+     margin-left: 10px; 
 }
 
 .bottom {
@@ -67,11 +64,6 @@ header .bottom .container .navigation .nav-bar {
     margin-top: 25px;
 }
 
-
-
-/* header .bottom .container .logo {
-    width: 252px;
-} */
 .logo {
     width: 252px;
 }
@@ -119,7 +111,7 @@ header .bottom .container .navigation .nav-button li a {
     font-size: 12px;
     text-transform: uppercase;
     background: #2d9cb1;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 10px 20px;
 }
 
@@ -174,7 +166,41 @@ header .bottom .container .navigation .nav-button li a {
     font-size: 14px;
     border-radius: 5px;
    
+}
 
+.section2 {
+    margin-top: 50px;
+}
+.col-card {
+    background-color: #FFEEF7;
+    text-align: center;
+    border-radius: 10px;
+    padding: 53px 58px 51px 46px;
+    
+
+  
+}
+
+.col-star {
+    color: #FF3FA7;
+    
+}
+
+.col-star i{
+    margin: 0 5px 20px 5px;
+}
+
+.col1-para{
+    color: #494949;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.col1-para h6 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 45px;
 }
   
   
