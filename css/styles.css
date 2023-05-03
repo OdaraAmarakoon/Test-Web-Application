@@ -1,0 +1,155 @@
+* {
+    /* put this to take 0 margin and 0 padding */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+header .top{
+    background-color: #2C3D51;
+}  
+
+header .top .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+
+header .top .container a{
+   color: #FFFFFF;
+}
+
+header .top .container .tel a {
+
+    text-decoration: none;
+}
+
+header .top .container .tel a i{
+    margin-right: 10px ;
+    text-decoration: none;
+}
+
+header .top .container .social :not(:last-child) {
+    margin-right: 10px ;
+}
+
+header .bottom .container .navigation {
+    display: flex;
+    align-items: center;
+}
+
+header .bottom .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px;
+}
+
+header .bottom .container .img img {
+    width: 252px;
+}
+
+header .bottom .container .navigation{
+    display: flex;
+}
+
+header .bottom .container .navigation ul li {
+    list-style: none;
+}
+/* see again not sure px */
+header .bottom .container .navigation ul li:not(:last-child) {
+    margin-right: 30px;
+}
+
+header .bottom .container .navigation ul {  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header .bottom .container .navigation  ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: #414141;
+    text-transform: uppercase;
+}
+
+ /*put margin */
+header .bottom .container .navigation .nav-button:not(:last-child) {
+    margin-right: 20px;
+}
+/* button style */
+header .bottom .container .navigation .nav-button li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    background: #2d9cb1;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+/* main section .container .row .colclass1 h1 {
+    text-transform: ca;
+} */
+ 
+.heading {
+    font-weight: 500;
+    width: 445px;
+    size: 48px;
+    color: #5F5F5F;
+    text-transform: capitalize;
+    text-align: left;
+    
+}
+
+.heading span {
+    color: #2C3D51;
+}
+
+
+.rowimg1 {
+   width: 570px;
+   height: 543px;
+   border-radius: 10px;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.paragraph {
+    font-weight: 400;
+    line-height: 20px;
+    size: 14px;
+    width: 508px;
+    text-align: justify;
+    text-transform: capitalize;
+    color: #000000;
+   
+}
+
+.para-btn {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #fff;
+    background: #2d9cb1;
+    padding: 19px 41px;
+    font-size: 12px;
+    border-radius: 5px;
+   
+
+}
+  
+  
+   
+
