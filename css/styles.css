@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header .top{
@@ -21,6 +21,8 @@ header .top .container {
 
 header .top .container a{
    color: #FFFFFF;
+   font-size: 12px;
+   font-weight: 500;
 }
 
 header .top .container .tel a {
@@ -31,6 +33,7 @@ header .top .container .tel a {
 header .top .container .tel a i{
     margin-right: 10px ;
     text-decoration: none;
+    font-weight: 600;
 }
 
 header .top .container .social :not(:last-child) {
@@ -48,8 +51,24 @@ header .bottom .container {
     padding: 13px;
 }
 
-header .bottom .container .img img {
+.bottom {
+    margin-top: 25px;
+}
+.main {
+    margin-top: 25px;
+}
+
+
+
+/* header .bottom .container .logo {
     width: 252px;
+} */
+.logo {
+    width: 252px;
+}
+
+header .bottom .container .logo img {
+    max-width: 100%;
 }
 
 header .bottom .container .navigation{
@@ -87,8 +106,8 @@ header .bottom .container .navigation .nav-button:not(:last-child) {
 header .bottom .container .navigation .nav-button li a {
     text-decoration: none;
     color: #fff;
-    font-weight: 600;
-    font-size: 13px;
+    font-weight: 700;
+    font-size: 12px;
     text-transform: uppercase;
     background: #2d9cb1;
     border-radius: 5px;
@@ -100,13 +119,13 @@ header .bottom .container .navigation .nav-button li a {
 } */
  
 .heading {
-    font-weight: 500;
+    font-weight: 600;
     width: 445px;
-    size: 48px;
+    font-size: 48px;
     color: #5F5F5F;
     text-transform: capitalize;
-    text-align: left;
-    
+    text-align: left;   
+    line-height: 58px;
 }
 
 .heading span {
@@ -115,8 +134,7 @@ header .bottom .container .navigation .nav-button li a {
 
 
 .rowimg1 {
-   width: 570px;
-   height: 543px;
+   max-width: 100%;
    border-radius: 10px;
 
 }
@@ -127,9 +145,9 @@ header .bottom .container .navigation .nav-button li a {
 }
 
 .paragraph {
-    font-weight: 400;
-    line-height: 20px;
-    size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    font-size: 14px;
     width: 508px;
     text-align: justify;
     text-transform: capitalize;
@@ -144,7 +162,7 @@ header .bottom .container .navigation .nav-button li a {
     color: #fff;
     background: #2d9cb1;
     padding: 19px 41px;
-    font-size: 12px;
+    font-size: 14px;
     border-radius: 5px;
    
 
