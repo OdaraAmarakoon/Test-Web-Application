@@ -124,33 +124,28 @@ header .bottom .container .navigation .nav-button li a {
     color: #2C3D51;
 }
 
-.rowimg1 {
-   border-radius: 10px;
-   position: absolute;
-   top: 0;
-   left: 0;
-   height: 100%;
-   width: 100%;
-   /* object-fit: cover; set in to the container */
-   object-fit: cover;
-}
-
 .image1{
     position: relative;
     width: 100%;
     height: 100%;
 }
 
+.rowimg1 {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* object-fit: cover; set in to the container */
+    object-fit: cover;
+ }
+
 .colclass1 {
     /* padding: 145px, 0, 100px, 0; */
     padding-top: 145px;
     padding-bottom: 100px;
 }
-
-/* .row {
-    display: flex;
-    align-items: center;
-} */
 
 .paragraph {
     font-weight: 600;
@@ -246,8 +241,83 @@ header .bottom .container .navigation .nav-button li a {
     width: 20%;
     height: 100%;
     background: linear-gradient(269.96deg, #FFFFFF 24.42%, rgba(255, 255, 255, 0) 59.38%);
-    z-index: 3;
-   
+    z-index: 3;  
 }
+
+/* section 4 styles */
+.section4 {
+    margin-top: 102px;
+
+}
+
+.sec4-content {
+    text-align: center;
+}
+.sec4-content h3{
+    font-weight: 600;  
+}
+.sec4-content p{
+    font-weight: 600; 
+    font-size: 12px; 
+    margin-top: 15px;
+    margin-bottom: 46px;
+}
+
+.sec4-content-btn {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #fff;
+    background: #2d9cb1;
+    padding: 19px 72px;
+    font-size: 12px;
+    border-radius: 5px; 
+    margin-bottom: 100px;  
+}
+
+.img-card {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 245px;
+    margin-top: 79px;
+}
+
+.img-card::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 57.29%, rgba(0, 0, 0, 0.9) 86.46%);
+    width:100%;
+    height: 100%;
+    top: 10%;
+    z-index: 1;
+    border-radius: 20px;
+
+}
+.img-card img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    /* object-fit: cover; set in to the container */
+    object-fit: cover;
+}
+
+.img-card p {
+    position: absolute;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    text-align: center;
+    z-index: 5;
+    width: 100%;
+
+}
+
+
 
 
