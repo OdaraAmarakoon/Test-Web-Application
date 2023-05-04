@@ -90,7 +90,6 @@ header .bottom .container .navigation ul {
     justify-content: space-between;
 }
 
-
 header .bottom .container .navigation  ul li a {
     text-decoration: none;
     font-size: 13px;
@@ -133,17 +132,33 @@ header .bottom .container .navigation .nav-button li a {
     color: #2C3D51;
 }
 
-
 .rowimg1 {
-   max-width: 100%;
    border-radius: 10px;
-
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   /* object-fit: cover; set in to the container */
+   object-fit: cover;
 }
 
-.row {
+.image1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.colclass1 {
+    /* padding: 145px, 0, 100px, 0; */
+    padding-top: 145px;
+    padding-bottom: 100px;
+}
+
+/* .row {
     display: flex;
     align-items: center;
-}
+} */
 
 .paragraph {
     font-weight: 600;
@@ -152,8 +167,7 @@ header .bottom .container .navigation .nav-button li a {
     width: 508px;
     text-align: justify;
     text-transform: capitalize;
-    color: #000000;
-   
+    color: #000000;   
 }
 
 .para-btn {
@@ -164,21 +178,18 @@ header .bottom .container .navigation .nav-button li a {
     background: #2d9cb1;
     padding: 19px 41px;
     font-size: 14px;
-    border-radius: 5px;
-   
+    border-radius: 5px;  
 }
 
 .section2 {
     margin-top: 50px;
 }
+
 .col-card {
     background-color: #FFEEF7;
     text-align: center;
     border-radius: 10px;
-    padding: 53px 58px 51px 46px;
-    
-
-  
+    padding: 53px 58px 51px 46px;  
 }
 
 .col-star {
@@ -202,7 +213,7 @@ header .bottom .container .navigation .nav-button li a {
     font-weight: 600;
     margin-top: 45px;
 }
-  
-  
+
+
    
 
