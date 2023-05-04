@@ -167,7 +167,8 @@ header .bottom .container .navigation .nav-button li a {
     width: 508px;
     text-align: justify;
     text-transform: capitalize;
-    color: #000000;   
+    color: #000000; 
+    margin-bottom: 40px;  
 }
 
 .para-btn {
@@ -178,7 +179,8 @@ header .bottom .container .navigation .nav-button li a {
     background: #2d9cb1;
     padding: 19px 41px;
     font-size: 14px;
-    border-radius: 5px;  
+    border-radius: 5px;
+  
 }
 
 .section2 {
