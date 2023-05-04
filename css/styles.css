@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: Montserrat;
 }
 
 header .top{
@@ -16,13 +16,11 @@ header .top{
 header .top .container {
     display: flex;
     justify-content: space-between;
-    padding: 8px;
+    padding: 13px;
 }
 
 header .top .container a{
    color: #FFFFFF;
-   font-size: 1px;
-   font-weight: 500;
 }
 
 header .top .container .tel a {
@@ -32,13 +30,7 @@ header .top .container .tel a {
 header .top .container .tel a i{
     margin-right: 10px ;
     text-decoration: none;
-    font-weight: 600;
 }
-
-header .top .container .social a{
-    font-size: 14px;
-}
-
 header .top .container .social :not(:last-child) {
     margin-right: 10px ;
 }
@@ -179,9 +171,10 @@ header .bottom .container .navigation .nav-button li a {
     background: #2d9cb1;
     padding: 19px 41px;
     font-size: 14px;
-    border-radius: 5px;
-  
+    border-radius: 5px; 
 }
+
+/* section 2 styles */
 
 .section2 {
     margin-top: 50px;
@@ -195,8 +188,7 @@ header .bottom .container .navigation .nav-button li a {
 }
 
 .col-star {
-    color: #FF3FA7;
-    
+    color: #FF3FA7;   
 }
 
 .col-star i{
@@ -216,6 +208,46 @@ header .bottom .container .navigation .nav-button li a {
     margin-top: 45px;
 }
 
+/* section 3 styles */
 
+.section3 {
+    position: relative;
+    margin-top: 57px;
+    
+}
+.section3 img{
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    object-fit: cover;   
+}
+
+.section3 .container .row {
+    justify-content: right;
+}
+
+.sec3-paragraph {
+    margin-top: 174px;
+    margin-bottom: 135px;
+    position: relative;
+    z-index: 5;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.sec3-paragraph h3{
+    font-weight: 600;
+}
+
+.section3::before {
+    content: " ";
+    position: absolute;
+    right: 40%;
+    width: 20%;
+    height: 100%;
+    background: linear-gradient(269.96deg, #FFFFFF 24.42%, rgba(255, 255, 255, 0) 59.38%);
+    z-index: 3;
    
+}
+
 
