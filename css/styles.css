@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Montserrat;
+  font-family: 'Montserrat', sans-serif;
 }
 
 header .top{
@@ -16,7 +16,7 @@ header .top{
 header .top .container {
     display: flex;
     justify-content: space-between;
-    padding: 13px;
+    padding: 11px;
 }
 
 header .top .container a{
@@ -25,6 +25,7 @@ header .top .container a{
 
 header .top .container .tel a {
     text-decoration: none;
+    font-size: 12px;
 }
 
 header .top .container .tel a i{
@@ -33,6 +34,7 @@ header .top .container .tel a i{
 }
 header .top .container .social :not(:last-child) {
     margin-right: 10px ;
+    font-size: 12px;
 }
 
 header .bottom .container {
@@ -207,8 +209,7 @@ header .bottom .container .navigation .nav-button li a {
 
 .section3 {
     position: relative;
-    margin-top: 57px;
-    
+    margin-top: 57px;   
 }
 .section3 img{
     position: absolute;
@@ -292,7 +293,6 @@ header .bottom .container .navigation .nav-button li a {
     top: 10%;
     z-index: 1;
     border-radius: 20px;
-
 }
 .img-card img{
     position: absolute;
@@ -323,13 +323,23 @@ header .bottom .container .navigation .nav-button li a {
     margin-top: 200px;
 }
 
+.sec5-heading {
+    font-weight: 900;   
+}
+
+.sec5-para {
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
 .sec5para-btn {
     text-decoration: none;
     text-transform: capitalize;
     font-weight: 600;
     color: #fff;
     background: #2d9cb1;
-    padding: 19px 41px;
+    padding: 19px 78px;
     font-size: 14px;
     border-radius: 5px; 
 }
@@ -402,13 +412,13 @@ header .bottom .container .navigation .nav-button li a {
   justify-content: right;
 }
 
-.Sec6-class1 {
+.sec6-class1 {
   margin-top: 80px;
   margin-bottom: 150px;
   z-index: 5;
 }
 
-.Sec6-class1 .get-started-header h5 {
+.sec6-class1 .sec6-class1-header h5 {
   text-align: center;
   color: #2c3d51;
   font-size: 16px;
@@ -416,7 +426,7 @@ header .bottom .container .navigation .nav-button li a {
   text-transform: capitalize;
 }
 
-.Sec6-class1 .get-started-header h1 {
+.sec6-class1 .sec6-class1-header h1 {
   text-align: center;
   color: #2c3d51;
   font-size: 38px;
@@ -426,15 +436,15 @@ header .bottom .container .navigation .nav-button li a {
   margin-bottom: 25px;
 }
 
-.Sec6-class1 .get-started-header h1 span {
+.sec6-class1 .sec6-class1-header h1 span {
   color: #2d9cb1;
 }
 
-.Sec6-class1 form {
+.sec6-class1 form {
   position: relative;
 }
 
-.Sec6-class1 form a {
+.sec6-class1 form a {
   text-align: center;
   text-decoration: none;
   text-transform: capitalize;
@@ -448,12 +458,13 @@ header .bottom .container .navigation .nav-button li a {
   padding: 22px 0;
 }
 
+/* text fields*/
 input,
 textarea {
   width: 100%;
   color: #ffffff;
   font-weight: 600;
-  padding: 25px 15px 15px 18px;  margin-bottom: 18px;
+  padding: 23px 13px 15px 18px;  margin-bottom: 18px;
   border-radius: 5px;
   border: none;
   background: #212121e5;
@@ -484,23 +495,23 @@ footer {
   background: #2c3d51;
   padding-top: 70px;
   padding-bottom: 80px;
-  font-size: 14px;
+  font-size: 13px;
 }
-/* 
+
 footer .container .row {
   justify-content: space-between;
-} */
+}
 
-.footer-nav-flex {
+.footer-nav {
   display: flex;
   justify-content: space-around;
 }
 
-/* .footer-nav-flex ul li {
+.footer-nav ul li {
   list-style: none;
-} */
+}
 
-.footer-nav-flex ul li a {
+.footer-nav ul li a {
   text-decoration: none;
   text-transform: capitalize;
   color: #ffffff;
@@ -510,6 +521,8 @@ footer .container .row {
 
 .footer-align ul li {
   list-style: none;
+  /* space */
+  font-size: inherit; 
 }
 
 .footer-align ul li a {
@@ -570,6 +583,8 @@ footer .container .row {
   display: flex;
   justify-content: space-around;
 }
-
+.footer-social-media .fa-brands {
+    font-size: xx-large;
+}
 
 
