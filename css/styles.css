@@ -83,6 +83,9 @@ header .bottom .container .navigation ul {
     align-items: center;
     justify-content: space-between;
 }
+header .bottom .container .navigation .nav-bar {  
+font-size: 13px;
+}
 
 header .bottom .container .navigation  ul li a {
     text-decoration: none;
@@ -104,7 +107,7 @@ header .bottom .container .navigation .nav-button li a {
     font-size: 12px;
     text-transform: uppercase;
     background: #2d9cb1;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px 20px;
 }
 
@@ -114,11 +117,11 @@ header .bottom .container .navigation .nav-button li a {
  
 .heading {
     font-weight: 600;
-    width: 445px;
+    /* width: 445px; */
     font-size: 48px;
     color: #5F5F5F;
     text-transform: capitalize;
-    text-align: left;   
+    /* text-align: left;    */
     line-height: 58px;
 }
 
@@ -151,13 +154,13 @@ header .bottom .container .navigation .nav-button li a {
 
 .paragraph {
     font-weight: 600;
-    line-height: 25px;
     font-size: 14px;
     width: 508px;
     text-align: justify;
     text-transform: capitalize;
     color: #000000; 
     margin-bottom: 40px;  
+    line-height: 146%;
 }
 
 .para-btn {
@@ -213,13 +216,14 @@ header .bottom .container .navigation .nav-button li a {
 }
 .section3 img{
     position: absolute;
-    width: 60%;
+    width: 70%;
     height: 100%;
     object-fit: cover;   
 }
 
 .section3 .container .row {
     justify-content: right;
+    height: 100%;
 }
 
 .sec3-paragraph {
@@ -228,7 +232,9 @@ header .bottom .container .navigation .nav-button li a {
     position: relative;
     z-index: 5;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 25px;
+    padding: 50px 0 27px 0;
 }
 
 .sec3-paragraph h3{
@@ -238,7 +244,7 @@ header .bottom .container .navigation .nav-button li a {
 .section3::before {
     content: " ";
     position: absolute;
-    right: 40%;
+    right: 30%;
     width: 20%;
     height: 100%;
     background: linear-gradient(269.96deg, #FFFFFF 24.42%, rgba(255, 255, 255, 0) 59.38%);
@@ -247,21 +253,30 @@ header .bottom .container .navigation .nav-button li a {
 
 /* section 4 styles */
 .section4 {
-    margin-top: 102px;
+  background: #f2f4f8;
+  padding-top: 100px;
 
 }
 
 .sec4-content {
     text-align: center;
+    
 }
 .sec4-content h3{
-    font-weight: 600;  
+  font-weight: 600;
+  font-size: 32px;
+  color: #373737;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+    
+ 
 }
 .sec4-content p{
     font-weight: 600; 
-    font-size: 12px; 
+    font-size: 14px; 
     margin-top: 15px;
     margin-bottom: 46px;
+
 }
 
 .sec4-content-btn {
@@ -285,14 +300,18 @@ header .bottom .container .navigation .nav-button li a {
 }
 
 .img-card::before {
-    content: "";
-    position: absolute;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 57.29%, rgba(0, 0, 0, 0.9) 86.46%);
-    width:100%;
-    height: 100%;
-    top: 10%;
-    z-index: 1;
-    border-radius: 20px;
+  content: "";
+  border-radius: 20px;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  height: 50%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 6.29%,
+    rgba(0, 0, 0, 0.9) 89.46%
+  );
+  z-index: 2;
 }
 .img-card img{
     position: absolute;
@@ -346,15 +365,18 @@ header .bottom .container .navigation .nav-button li a {
 
 .image1 {
     position: relative;
+    
 }
 
 .sec5image {
-    position: absolute ;
-    transform: scaleX(-1);
-    margin-left: 100px;
-    border-radius: 20px;
-    width: 120%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: scaleX(-1);
+  border-radius: 0px 20px 20px 0px;
 }
 
 .sec5col {
@@ -491,100 +513,14 @@ textarea {
 }
 
 /* footer styles */
-footer {
+
+.footer {
   background: #2c3d51;
   padding-top: 70px;
   padding-bottom: 80px;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 footer .container .row {
   justify-content: space-between;
 }
-
-.footer-nav {
-  display: flex;
-  justify-content: space-around;
-}
-
-.footer-nav ul li {
-  list-style: none;
-}
-
-.footer-nav ul li a {
-  text-decoration: none;
-  text-transform: capitalize;
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 500;
-}
-
-.footer-align ul li {
-  list-style: none;
-  /* space */
-  font-size: inherit; 
-}
-
-.footer-align ul li a {
-  text-decoration: none;
-  text-transform: capitalize;
-  color: #ffffff;
-  font-size: 13px;
-  font-weight: 500;
-}
-
-.footer-4 img {
-  width: 50px;
-  height: 50px;
-}
-
-.footer-4 {
-  font-size: 14px;
-}
-
-.footer-4 a {
-  font-weight: 400;
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.footer-4 p {
-  font-weight: 400;
-  color: #ffffff;
-}
-
-.footer-social-media a {
-  color: #ffffff;
-}
-
-.footer-align {
-  height: 100%;
-}
-
-.footer-align ul {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-}
-
-.footer-4 ul {
-  padding-left: 0;
-}
-
-.footer-4 .footer-align ul li a {
-  text-decoration: none;
-  text-transform: capitalize;
-  color: #ffffff;
-  font-weight: 400;
-}
-
-.footer-social-media {
-  display: flex;
-  justify-content: space-around;
-}
-.footer-social-media .fa-brands {
-    font-size: xx-large;
-}
-
-
