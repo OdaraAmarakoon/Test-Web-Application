@@ -26,6 +26,7 @@ header .top .container a{
 header .top .container .tel a {
     text-decoration: none;
     font-size: 12px;
+    font-weight: 700;
 }
 
 header .top .container .tel a i{
@@ -227,14 +228,14 @@ header .bottom .container .navigation .nav-button li a {
 }
 
 .sec3-paragraph {
-    margin-top: 174px;
+    margin-top: 120px;
     margin-bottom: 135px;
     position: relative;
     z-index: 5;
     font-weight: 500;
     font-size: 14px;
     line-height: 25px;
-    padding: 50px 0 27px 0;
+    padding: 50px 0 27px 20px;
 }
 
 .sec3-paragraph h3{
@@ -251,52 +252,49 @@ header .bottom .container .navigation .nav-button li a {
     z-index: 3;  
 }
 
+/* ///////////////// */
 /* section 4 styles */
+/* //////////////////// */
+
 .section4 {
-  background: #f2f4f8;
-  padding-top: 100px;
-
+position: relative;
 }
-
 .sec4-content {
-    text-align: center;
-    
+  text-align: center;
+  margin-bottom: 100px;
 }
+
 .sec4-content h3{
   font-weight: 600;
   font-size: 32px;
   color: #373737;
   margin-bottom: 20px;
   text-transform: capitalize;
-    
- 
+  padding-top: 102px; 
 }
-.sec4-content p{
-    font-weight: 600; 
-    font-size: 14px; 
-    margin-top: 15px;
-    margin-bottom: 46px;
 
+.sec4-content p{
+  font-weight: 500; 
+  font-size: 14px; 
+  margin-bottom: 39px;
 }
 
 .sec4-content-btn {
-    text-decoration: none;
-    text-transform: capitalize;
-    font-weight: 600;
-    color: #fff;
-    background: #2d9cb1;
-    padding: 19px 72px;
-    font-size: 12px;
-    border-radius: 5px; 
-    margin-bottom: 100px;  
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: #fff;
+  background: #2d9cb1;
+  padding: 19px 72px;
+  font-size: 12px;
+  border-radius: 5px;  
 }
 
-.img-card {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    padding-top: 245px;
-    margin-top: 79px;
+.section4 .container .row .img-card {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-top: 105%;
 }
 
 .img-card::before {
@@ -313,92 +311,107 @@ header .bottom .container .navigation .nav-button li a {
   );
   z-index: 2;
 }
-.img-card img{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    border-radius: 20px;
-    /* object-fit: cover; set in to the container */
-    object-fit: cover;
+
+.section4 .container .row .img-card img{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  border-radius: 20px; 
 }
 
-.img-card p {
-    position: absolute;
-    color: #FFFFFF;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
-    text-transform: capitalize;
-    text-align: center;
-    z-index: 5;
-    width: 100%;
+.img-card p{
+  position: absolute;
+  z-index: 5;
+  bottom: 33px;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: capitalize;
+  text-align: center;
+  width: 100%;
+}
+.sec4div::before {
+  content: "";
+  position: absolute;
+  top:0;
+  height: 90%;
+  width: 100%;
+  background-color: #F2F4F8;
+  z-index: -1;
 }
 
-/* section 5 styles */
+
+/* ////////////////////////// */
+/* section 5 style new */
+/* /////////////////////////// */
 
 .section5 {
-    margin-top: 200px;
+  position: relative;
+  margin-bottom: 79px;
+  margin-top: 79px;
+}
+
+.section5 .container {
+padding-top: 7%;
+padding-bottom: 7%;
+
 }
 
 .sec5-heading {
-    font-weight: 900;   
+  font-weight: 600;
+  font-size: 32px; 
+  margin-top: 0px;  
 }
 
 .sec5-para {
-    margin-bottom: 40px;
-    font-weight: 700;
-    font-size: 15px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 192%;
+  margin: 25px 125px 40px 0px;
+  text-transform: capitalize;
 }
 
 .sec5para-btn {
-    text-decoration: none;
-    text-transform: capitalize;
-    font-weight: 600;
-    color: #fff;
-    background: #2d9cb1;
-    padding: 19px 78px;
-    font-size: 14px;
-    border-radius: 5px; 
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #fff;
+  background:#2D9CB1;
+  padding: 19px 78px;
+  font-size: 14px;
+  border-radius: 5px; 
 }
 
-.image1 {
-    position: relative;
-    
-}
-
-.sec5image {
+.section5 img{
   position: absolute;
   top: 0;
   right: 0;
-  width: 50%;
+  width: 51%;
   height: 100%;
+  z-index: -1;
   object-fit: cover;
+  border-radius:  0px 20px 20px 0px;
   transform: scaleX(-1);
-  border-radius: 0px 20px 20px 0px;
-}
-
-.sec5col {
-    margin-top: 100px;
-    margin-bottom: 100PX;
-}
-
-.sec5col p{
-    margin-top: 20px;
-    /* margin: ; */
-}
-
-.sec5para-btn {
-    margin-bottom: 174PX;
 }
 
 
+
+
+
+
+
+
+
+/* //////////////////////// */
 /* section 6 styles */
-
+/* ////////////////////// */
 .section6 {
-  margin-top: 50px;
+  margin-top: 165px;
   position: relative;
+  /* border: 2px solid #000000; */
 }
 
 .section6 img {
@@ -512,15 +525,53 @@ textarea {
   padding-top: 20px;
 }
 
-/* footer styles */
-
-.footer {
-  background: #2c3d51;
-  padding-top: 70px;
-  padding-bottom: 80px;
-  font-size: 14px;
+input::placeholder, textarea::placeholder {
+  color: #ffffff;
 }
 
-footer .container .row {
-  justify-content: space-between;
+/* /////////////////////// */
+/* footer styles */
+/* ////////////////////// */
+ 
+
+.footer {
+  background:#2C3D51;
+}
+
+.sub-section4 p a img {
+  width: 56px;
+  height: 30px;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer .container .sub-section1 ul {
+  list-style: none;
+
+}
+
+.footer .container .sub-section1 ul li  {
+  list-style: none;
+
+}
+.footer .container .sub-section1 ul li a {
+  list-style: none;
+  color: #FFFFFF;
+}
+
+.footer .container .sub-section2 {
+  color: #FFFFFF;
+}
+.footer .container .sub-section3 {
+  color: #FFFFFF;
+}
+.footer .container .sub-section3 p a {
+  list-style: none;
+  color: #FFFFFF;
+}
+.footer .container .sub-section4 {
+  color: #FFFFFF;
 }
